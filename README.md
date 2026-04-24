@@ -164,4 +164,4 @@ Use `prompt_template.md` to get the most out of every AI interaction.
 
 ---
 
-*Built with 💛💙 for Dylan — Go Blue!*
+*Built with Dylan — Go Blue! 💛💙*
