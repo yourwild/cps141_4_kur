@@ -1,0 +1,274 @@
+/*
+ * =============================================================================
+ * CPS 141 — Dylan Kur | University of Michigan Theme
+ * Maize & Blue, all day.
+ * =============================================================================
+ *
+ * HOW TO USE IN JUPYTERLAB:
+ *   1. Open JupyterLab
+ *   2. Settings > Settings Editor > search "custom CSS"
+ *   3. Paste the contents of this file
+ *
+ * HOW TO USE IN A NOTEBOOK (HTML export):
+ *   Link this file in the exported HTML header
+ * =============================================================================
+ */
+
+/* -----------------------------------------------------------------------------
+   Michigan Color Palette
+----------------------------------------------------------------------------- */
+:root {
+  --um-blue:        #00274C;   /* official Michigan Blue */
+  --um-maize:       #FFCB05;   /* official Michigan Maize */
+  --um-blue-light:  #1a3a5c;   /* lighter blue for hovers */
+  --um-maize-light: #ffe066;   /* lighter maize for accents */
+  --um-white:       #FFFFFF;
+  --um-gray-light:  #f4f6f8;
+  --um-gray-mid:    #d0d7de;
+  --um-gray-dark:   #4a5568;
+  --um-code-bg:     #0d1b2a;   /* deep navy for code blocks */
+  --um-success:     #2d7a4f;
+  --um-error:       #c0392b;
+
+  /* Typography */
+  --font-display:   'Georgia', 'Times New Roman', serif;
+  --font-body:      'Helvetica Neue', 'Arial', sans-serif;
+  --font-mono:      'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+}
+
+/* -----------------------------------------------------------------------------
+   JupyterLab — Overall Layout
+----------------------------------------------------------------------------- */
+.jp-LabShell {
+  background-color: var(--um-blue) !important;
+}
+
+.jp-SideBar {
+  background-color: var(--um-blue) !important;
+  border-right: 2px solid var(--um-maize) !important;
+}
+
+.jp-FileBrowser {
+  background-color: var(--um-blue-light) !important;
+}
+
+.jp-FileBrowser .jp-DirListing-item {
+  color: var(--um-white) !important;
+}
+
+.jp-FileBrowser .jp-DirListing-item:hover {
+  background-color: var(--um-maize) !important;
+  color: var(--um-blue) !important;
+}
+
+/* -----------------------------------------------------------------------------
+   Notebook — Cell Styling
+----------------------------------------------------------------------------- */
+.jp-Notebook {
+  background-color: var(--um-gray-light) !important;
+  padding: 24px !important;
+}
+
+.jp-Cell {
+  border-radius: 8px !important;
+  margin-bottom: 12px !important;
+  border: 1px solid var(--um-gray-mid) !important;
+  background-color: var(--um-white) !important;
+  box-shadow: 0 2px 6px rgba(0, 39, 76, 0.08) !important;
+  transition: box-shadow 0.2s ease !important;
+}
+
+.jp-Cell:hover {
+  box-shadow: 0 4px 12px rgba(0, 39, 76, 0.15) !important;
+}
+
+.jp-Cell.jp-mod-selected,
+.jp-Cell.jp-mod-active {
+  border-left: 4px solid var(--um-maize) !important;
+  background-color: var(--um-white) !important;
+}
+
+/* -----------------------------------------------------------------------------
+   Code Cells
+----------------------------------------------------------------------------- */
+.jp-CodeCell .jp-Cell-inputWrapper {
+  background-color: var(--um-code-bg) !important;
+  border-radius: 6px 6px 0 0 !important;
+}
+
+.jp-CodeMirrorEditor {
+  background-color: var(--um-code-bg) !important;
+}
+
+.CodeMirror {
+  background-color: var(--um-code-bg) !important;
+  color: #e8eaf0 !important;
+  font-family: var(--font-mono) !important;
+  font-size: 14px !important;
+  line-height: 1.6 !important;
+}
+
+/* Syntax highlighting — Michigan flavored */
+.cm-keyword    { color: var(--um-maize) !important; font-weight: bold; }
+.cm-def        { color: #7ec8e3 !important; }
+.cm-variable   { color: #e8eaf0 !important; }
+.cm-string     { color: #a8d8a8 !important; }
+.cm-number     { color: var(--um-maize-light) !important; }
+.cm-comment    { color: #6b7fa3 !important; font-style: italic; }
+.cm-operator   { color: #f0a0a0 !important; }
+.cm-builtin    { color: #b0c4de !important; }
+
+/* -----------------------------------------------------------------------------
+   Markdown Cells
+----------------------------------------------------------------------------- */
+.jp-MarkdownCell .jp-Cell-inputWrapper {
+  background-color: var(--um-white) !important;
+}
+
+.jp-RenderedMarkdown {
+  font-family: var(--font-body) !important;
+  color: var(--um-blue) !important;
+  padding: 12px 16px !important;
+  line-height: 1.7 !important;
+}
+
+.jp-RenderedMarkdown h1 {
+  color: var(--um-blue) !important;
+  font-family: var(--font-display) !important;
+  border-bottom: 3px solid var(--um-maize) !important;
+  padding-bottom: 8px !important;
+  font-size: 2em !important;
+}
+
+.jp-RenderedMarkdown h2 {
+  color: var(--um-blue) !important;
+  font-family: var(--font-display) !important;
+  border-bottom: 1px solid var(--um-maize) !important;
+  padding-bottom: 4px !important;
+}
+
+.jp-RenderedMarkdown h3 {
+  color: var(--um-blue-light) !important;
+}
+
+.jp-RenderedMarkdown code {
+  background-color: var(--um-code-bg) !important;
+  color: var(--um-maize) !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
+  font-family: var(--font-mono) !important;
+  font-size: 0.9em !important;
+}
+
+.jp-RenderedMarkdown blockquote {
+  border-left: 4px solid var(--um-maize) !important;
+  background-color: rgba(255, 203, 5, 0.08) !important;
+  padding: 8px 16px !important;
+  margin: 12px 0 !important;
+  border-radius: 0 6px 6px 0 !important;
+}
+
+.jp-RenderedMarkdown a {
+  color: var(--um-blue) !important;
+  text-decoration: underline !important;
+  text-decoration-color: var(--um-maize) !important;
+}
+
+.jp-RenderedMarkdown a:hover {
+  color: var(--um-maize) !important;
+}
+
+/* -----------------------------------------------------------------------------
+   Output Area
+----------------------------------------------------------------------------- */
+.jp-OutputArea {
+  background-color: var(--um-gray-light) !important;
+  border-radius: 0 0 6px 6px !important;
+  padding: 8px !important;
+  border-top: 2px solid var(--um-maize) !important;
+}
+
+.jp-OutputArea-output {
+  font-family: var(--font-mono) !important;
+  font-size: 13px !important;
+  color: var(--um-blue) !important;
+}
+
+/* Error output */
+.jp-RenderedText[data-mime-type="application/vnd.jupyter.stderr"] {
+  background-color: rgba(192, 57, 43, 0.08) !important;
+  border-left: 4px solid var(--um-error) !important;
+  padding: 8px !important;
+  border-radius: 0 4px 4px 0 !important;
+}
+
+/* -----------------------------------------------------------------------------
+   Toolbar
+----------------------------------------------------------------------------- */
+.jp-Toolbar {
+  background-color: var(--um-blue) !important;
+  border-bottom: 2px solid var(--um-maize) !important;
+}
+
+.jp-ToolbarButton .jp-Icon {
+  color: var(--um-maize) !important;
+}
+
+.jp-ToolbarButton:hover {
+  background-color: var(--um-maize) !important;
+}
+
+.jp-ToolbarButton:hover .jp-Icon {
+  color: var(--um-blue) !important;
+}
+
+/* -----------------------------------------------------------------------------
+   Tab Bar
+----------------------------------------------------------------------------- */
+.lm-TabBar-tab {
+  background-color: var(--um-blue-light) !important;
+  color: var(--um-gray-mid) !important;
+  border-bottom: 2px solid transparent !important;
+}
+
+.lm-TabBar-tab.lm-mod-current {
+  background-color: var(--um-white) !important;
+  color: var(--um-blue) !important;
+  border-bottom: 2px solid var(--um-maize) !important;
+  font-weight: bold !important;
+}
+
+/* -----------------------------------------------------------------------------
+   Scrollbars — subtle maize accent
+----------------------------------------------------------------------------- */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--um-blue) !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--um-maize) !important;
+  border-radius: 3px !important;
+}
+
+/* -----------------------------------------------------------------------------
+   Cell Execution Count [ ] numbers
+----------------------------------------------------------------------------- */
+.jp-InputPrompt,
+.jp-OutputPrompt {
+  color: var(--um-maize) !important;
+  font-family: var(--font-mono) !important;
+  font-size: 12px !important;
+  opacity: 0.8 !important;
+}
+
+/* -----------------------------------------------------------------------------
+   Run button / kernel indicator
+----------------------------------------------------------------------------- */
+.jp-Kernel-status-circle {
+  background-color: var(--um-maize) !important;
+}

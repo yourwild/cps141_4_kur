@@ -1,0 +1,34 @@
+# =============================================================================
+# CPS 141 — Python Dependencies
+# =============================================================================
+# Install all dependencies:
+#   pip install -r requirements.txt
+# =============================================================================
+
+# --- Notebook Environment ---
+jupyterlab>=4.0.0
+notebook>=7.0.0
+voila>=0.5.0                    # render notebooks as clean web apps
+
+# --- Environment Variables ---
+python-dotenv>=1.0.0            # load .env files into Python
+
+# --- Data Manipulation ---
+pandas>=2.0.0                   # dataframes, CSV, data wrangling
+numpy>=1.24.0                   # numerical computing
+
+# --- Data Visualization ---
+matplotlib>=3.7.0               # foundational plotting
+seaborn>=0.12.0                 # statistical visualization, beautiful defaults
+plotly>=5.15.0                  # interactive charts
+
+# --- Web & APIs ---
+requests>=2.31.0                # HTTP requests, REST APIs
+
+# --- AI SDKs ---
+anthropic>=0.25.0               # Claude API
+openai>=1.0.0                   # OpenAI API
+
+# --- Documentation ---
+mkdocs>=1.5.0                   # documentation site generator
+mkdocs-material>=9.0.0          # material theme for MkDocs
