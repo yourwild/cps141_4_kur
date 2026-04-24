@@ -53,13 +53,60 @@ assignment_01_hello_world/
 
 1. Make sure your virtual environment is active:
    ```bash
-   source venv/bin/activate
+   source venv/bin/activate  # macOS/Linux
+   # or
+   source venv/Scripts/activate  # Git Bash on Windows
+   ```
+   On Windows PowerShell, use:
+   ```powershell
+   .\venv\Scripts\Activate.ps1
    ```
 2. Launch JupyterLab from the root of the repo:
    ```bash
-   jupyter lab
+   python start_jupyter.py
    ```
 3. Navigate to this folder and open the `.ipynb` file
+
+---
+
+## Notebook Styling Helpers
+
+You can use these reusable HTML blocks inside Markdown cells. They will pick up the shared course styling from `custom.css`.
+
+```html
+<div class="callout">
+  <h4>Key Idea</h4>
+  <p>Explain the main concept for this section.</p>
+</div>
+```
+
+```html
+<div class="answer-box">
+  <h4>My Answer</h4>
+  <p>Write your response, interpretation, or summary here.</p>
+</div>
+```
+
+```html
+<div class="warning-box">
+  <h4>Watch Out</h4>
+  <p>Note a common mistake, edge case, or assumption.</p>
+</div>
+```
+
+```html
+<div class="success-box">
+  <h4>Result</h4>
+  <p>Highlight a successful output, conclusion, or checkpoint.</p>
+</div>
+```
+
+```html
+<div class="code-note">
+  <h4>Code Note</h4>
+  <p>Use this for short technical explanations or code-related reminders.</p>
+</div>
+```
 
 ---
 

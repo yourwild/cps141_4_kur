@@ -26,21 +26,42 @@ cd cps141-python
 ### 2. Run Setup
 This creates your virtual environment and installs everything you need:
 ```bash
-chmod +x setup.sh
+python setup.py
+```
+If `python` points to Python 2 on your machine, use `python3 setup.py` instead.
+
+Optional wrappers:
+```bash
 ./setup.sh
 ```
+
+```powershell
+.\setup.ps1
+```
+
+`setup.py` detects whether it is running on Windows, macOS, or Linux and prints the right activation command for that machine.
 
 ### 3. Configure Your API Keys
 ```bash
 cp .env.sample .env
 ```
-Open `.env` and fill in your API keys. **Never share this file. Never commit this file.**
+If `.env.sample` exists, copy it to `.env`, then fill in your API keys. **Never share this file. Never commit this file.**
 
 ### 4. Launch JupyterLab
 ```bash
-source venv/bin/activate
-jupyter lab
+source venv/bin/activate  # macOS/Linux
+# or
+source venv/Scripts/activate  # Git Bash on Windows
+python start_jupyter.py
 ```
+
+On Windows PowerShell, use:
+```powershell
+.\venv\Scripts\Activate.ps1
+py start_jupyter.py
+```
+
+`start_jupyter.py` prints the exact local JupyterLab URL in the terminal before the server starts, so it is easy to paste into a browser.
 
 Or open the project in PyCharm — it will detect the notebooks automatically.
 
@@ -55,6 +76,7 @@ cps141-python/
 ├── .env                        ← your API keys (never committed)
 ├── .env.sample                 ← template showing what keys are needed
 ├── requirements.txt            ← all Python dependencies
+├── start_jupyter.py            ← starts JupyterLab and prints the browser URL
 ├── setup.sh                    ← one-command environment setup
 ├── prompt_template.md          ← how to ask AI for help on assignments
 ├── custom.css                  ← Michigan-themed notebook styling

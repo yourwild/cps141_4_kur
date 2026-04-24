@@ -179,6 +179,64 @@
 }
 
 /* -----------------------------------------------------------------------------
+   Reusable Markdown Content Blocks
+----------------------------------------------------------------------------- */
+.jp-RenderedMarkdown .callout,
+.jp-RenderedMarkdown .answer-box,
+.jp-RenderedMarkdown .warning-box,
+.jp-RenderedMarkdown .success-box,
+.jp-RenderedMarkdown .code-note {
+  margin: 16px 0 !important;
+  padding: 14px 18px !important;
+  border-radius: 10px !important;
+  border-left: 6px solid var(--um-blue) !important;
+  box-shadow: 0 2px 8px rgba(0, 39, 76, 0.08) !important;
+}
+
+.jp-RenderedMarkdown .callout {
+  background: linear-gradient(90deg, rgba(255, 203, 5, 0.12), rgba(255, 255, 255, 0.95)) !important;
+  border-left-color: var(--um-maize) !important;
+}
+
+.jp-RenderedMarkdown .answer-box {
+  background-color: rgba(0, 39, 76, 0.06) !important;
+  border-left-color: var(--um-blue) !important;
+}
+
+.jp-RenderedMarkdown .warning-box {
+  background-color: rgba(192, 57, 43, 0.08) !important;
+  border-left-color: var(--um-error) !important;
+}
+
+.jp-RenderedMarkdown .success-box {
+  background-color: rgba(45, 122, 79, 0.10) !important;
+  border-left-color: var(--um-success) !important;
+}
+
+.jp-RenderedMarkdown .code-note {
+  background-color: rgba(13, 27, 42, 0.94) !important;
+  border-left-color: var(--um-maize) !important;
+  color: #e8eaf0 !important;
+  font-family: var(--font-mono) !important;
+}
+
+.jp-RenderedMarkdown .callout h4,
+.jp-RenderedMarkdown .answer-box h4,
+.jp-RenderedMarkdown .warning-box h4,
+.jp-RenderedMarkdown .success-box h4,
+.jp-RenderedMarkdown .code-note h4 {
+  margin-top: 0 !important;
+  margin-bottom: 8px !important;
+  font-family: var(--font-display) !important;
+}
+
+.jp-RenderedMarkdown .code-note code,
+.jp-RenderedMarkdown .code-note pre {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  color: var(--um-maize-light) !important;
+}
+
+/* -----------------------------------------------------------------------------
    Output Area
 ----------------------------------------------------------------------------- */
 .jp-OutputArea {
