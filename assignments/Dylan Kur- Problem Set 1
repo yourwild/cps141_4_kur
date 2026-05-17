@@ -1,18 +1,32 @@
 {
  "cells": [
   {
-   "metadata": {},
    "cell_type": "markdown",
-   "source": "## <span style=\"color:blue\">Problem Set 1<span>"
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "run_control": {
+     "frozen": true
+    }
+   },
+   "source": [
+    "## <span style=\"color:blue\">Problem Set 1<span>"
+   ]
   },
   {
-   "metadata": {},
    "cell_type": "raw",
+   "metadata": {},
    "source": "Dylan Kur"
   },
   {
-   "metadata": {},
    "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "run_control": {
+     "frozen": true
+    }
+   },
    "source": [
     "### <font color='blue'>Note:</font>\n",
     "1. The functions in the first cell are used in later problems.  Do not duplicate the code in later cells or attempt to write similar functions.\n",
@@ -28,10 +42,13 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "code",
-   "outputs": [],
    "execution_count": null,
+   "metadata": {
+    "deletable": false,
+    "editable": false
+   },
+   "outputs": [],
    "source": [
     "def sqr(num):\n",
     "    import math\n",
@@ -51,8 +68,14 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "run_control": {
+     "frozen": true
+    }
+   },
    "source": [
     "### <font color=\"blue\">Problem 1</font>\n",
     "\n",
@@ -72,10 +95,13 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "code",
-   "outputs": [],
-   "execution_count": null,
+   "metadata": {
+    "ExecuteTime": {
+     "end_time": "2026-05-17T16:56:14.559115Z",
+     "start_time": "2026-05-17T16:56:14.479828Z"
+    }
+   },
    "source": [
     "rv = \"\"\"Once upon a midnight dreary, while I pondered, weak and weary,\n",
     "    Over many a quaint and curious volume of forgotten lore,\n",
@@ -89,17 +115,30 @@
     "p=3.145\n",
     "print(\"The type of p is\", type(p).__name__)\n",
     "p = p * 2\n",
-    "print(\"p squared is\", p)\n",
-    "\n",
-    "# Code for problem B below\n",
-    "print(\"Output for problem 1B:\")\n",
-    "numChars = len(rv)\n",
-    "print(\"The number of chars is\", numChars)\n"
-   ]
+    "print(\"p squared is\", p)\n"
+   ],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Output for problem 1A:\n",
+      "The type of p is float\n",
+      "p squared is 6.29\n"
+     ]
+    }
+   ],
+   "execution_count": 4
   },
   {
-   "metadata": {},
    "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "run_control": {
+     "frozen": true
+    }
+   },
    "source": [
     "<div class=\"alert alert-warning\">\n",
     "    <font face=\"verdana\" size=\"2\" color=\"033971\"><strong>Expected Output:</strong><br />\n",
@@ -111,8 +150,14 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "run_control": {
+     "frozen": true
+    }
+   },
    "source": [
     "### <font color=\"blue\">Problem 2</font>\n",
     "\n",
@@ -125,10 +170,10 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "code",
-   "outputs": [],
    "execution_count": null,
+   "metadata": {},
+   "outputs": [],
    "source": [
     "a = 5\n",
     "b = 6\n",
@@ -136,8 +181,14 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "run_control": {
+     "frozen": true
+    }
+   },
    "source": [
     "<div class=\"alert alert-warning\">\n",
     "    <font face=\"verdana\" size=\"2\" color=\"033971\"><strong>Expected Output:</strong><br />\n",
@@ -145,8 +196,14 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "run_control": {
+     "frozen": true
+    }
+   },
    "source": [
     "### <font color=\"blue\">Problem 3</font>\n",
     "\n",
@@ -154,10 +211,10 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "code",
-   "outputs": [],
    "execution_count": null,
+   "metadata": {},
+   "outputs": [],
    "source": [
     "l = [3,5,7]\n",
     "tot = 0\n",
@@ -169,8 +226,14 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "run_control": {
+     "frozen": true
+    }
+   },
    "source": [
     "<div class=\"alert alert-warning\">\n",
     "    <font face=\"verdana\" size=\"2\" color=\"033971\"><strong>Expected Output:</strong><br />\n",
@@ -178,8 +241,14 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "run_control": {
+     "frozen": true
+    }
+   },
    "source": [
     "### <font color=\"blue\">Problem 4</font>\n",
     "\n",
@@ -191,10 +260,10 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "code",
-   "outputs": [],
    "execution_count": null,
+   "metadata": {},
+   "outputs": [],
    "source": [
     "pi = 0\n",
     "radius = 5\n",
@@ -204,8 +273,14 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "run_control": {
+     "frozen": true
+    }
+   },
    "source": [
     "<div class=\"alert alert-warning\">\n",
     "    <font face=\"verdana\" size=\"2\" color=\"033971\"><strong>Expected Output:</strong><br />\n",
@@ -213,8 +288,14 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "run_control": {
+     "frozen": true
+    }
+   },
    "source": [
     "###  <font color=\"blue\">Problem 5</font>\n",
     "\n",
@@ -225,18 +306,24 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "code",
-   "outputs": [],
    "execution_count": null,
+   "metadata": {},
+   "outputs": [],
    "source": [
     "userInput = input('Enter an integer: ')\n",
     "# write your code below\n"
    ]
   },
   {
-   "metadata": {},
    "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "run_control": {
+     "frozen": true
+    }
+   },
    "source": [
     "<div class=\"alert alert-warning\">\n",
     "    <font face=\"verdana\" size=\"2\" color=\"033971\"><strong>Expected Output:</strong><br />\n",
@@ -246,8 +333,14 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "run_control": {
+     "frozen": true
+    }
+   },
    "source": [
     "### <font color=\"blue\">Problem 6</font>\n",
     "\n",
@@ -257,10 +350,10 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "code",
-   "outputs": [],
    "execution_count": null,
+   "metadata": {},
+   "outputs": [],
    "source": [
     "firstNum = input('Enter the first number: ')\n",
     "secondNum = input('Enter the second number: ')\n",
@@ -268,8 +361,14 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "run_control": {
+     "frozen": true
+    }
+   },
    "source": [
     "<div class=\"alert alert-warning\">\n",
     "<font face=\"verdana\" size=\"2\" color=\"033971\"><strong>Expected Output:</strong><br />\n",
@@ -279,8 +378,14 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "run_control": {
+     "frozen": true
+    }
+   },
    "source": [
     "### <font color=\"blue\">Problem 7</font>\n",
     "\n",
@@ -299,10 +404,10 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "code",
-   "outputs": [],
    "execution_count": null,
+   "metadata": {},
+   "outputs": [],
    "source": [
     "# do not change the code below\n",
     "for i in range(50):\n",
@@ -312,8 +417,14 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "run_control": {
+     "frozen": true
+    }
+   },
    "source": [
     "<div class=\"alert alert-warning\">\n",
     "<font face=\"verdana\" size=\"2\" color=\"033971\">\n",
@@ -326,8 +437,14 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "run_control": {
+     "frozen": true
+    }
+   },
    "source": [
     "### <font color=\"blue\">Problem 8</font>\n",
     "\n",
@@ -335,10 +452,10 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "code",
-   "outputs": [],
    "execution_count": null,
+   "metadata": {},
+   "outputs": [],
    "source": [
     "def cube(num):\n",
     "    #  replace this comment line with your code\n",
@@ -352,8 +469,14 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "run_control": {
+     "frozen": true
+    }
+   },
    "source": [
     "<div class=\"alert alert-warning\">\n",
     "    <font face=\"verdana\" size=\"2\" color=\"033971\"><strong>Expected Output:</strong><br />\n",
@@ -362,8 +485,14 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "run_control": {
+     "frozen": true
+    }
+   },
    "source": [
     "### <font color=\"blue\">Problem 9</font>\n",
     "\n",
@@ -371,18 +500,24 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "code",
-   "outputs": [],
    "execution_count": null,
+   "metadata": {},
+   "outputs": [],
    "source": [
     "num1 = 4 * 6 - 2 * 4 - 2\n",
     "print(num1)"
    ]
   },
   {
-   "metadata": {},
    "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "run_control": {
+     "frozen": true
+    }
+   },
    "source": [
     "<div class=\"alert alert-warning\">\n",
     "<font face=\"verdana\" size=\"2\" color=\"033971\"><strong>Expected Output:</strong><br />\n",
@@ -390,8 +525,14 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "markdown",
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "run_control": {
+     "frozen": true
+    }
+   },
    "source": [
     "### <font color=\"blue\">Problem 10</font>\n",
     "\n",
@@ -399,10 +540,10 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "code",
-   "outputs": [],
    "execution_count": null,
+   "metadata": {},
+   "outputs": [],
    "source": [
     "2nd = 0\n",
     "\n",
@@ -415,15 +556,26 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "markdown",
-   "source": "### <font color=\"blue\">Run the cells below to test your code</font>"
+   "metadata": {
+    "deletable": false,
+    "editable": false,
+    "run_control": {
+     "frozen": true
+    }
+   },
+   "source": [
+    "### <font color=\"blue\">Run the cells below to test your code</font>"
+   ]
   },
   {
-   "metadata": {},
    "cell_type": "code",
-   "outputs": [],
    "execution_count": null,
+   "metadata": {
+    "deletable": false,
+    "editable": false
+   },
+   "outputs": [],
    "source": [
     "import unittest\n",
     "\n",
@@ -467,11 +619,16 @@
    ]
   },
   {
-   "metadata": {},
    "cell_type": "code",
-   "outputs": [],
    "execution_count": null,
-   "source": "unittest.main(argv=['first-arg-is-ignored'], exit=False, verbosity=2)"
+   "metadata": {
+    "deletable": false,
+    "editable": false
+   },
+   "outputs": [],
+   "source": [
+    "unittest.main(argv=['first-arg-is-ignored'], exit=False, verbosity=2)"
+   ]
   }
  ],
  "metadata": {
