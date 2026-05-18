@@ -80,26 +80,98 @@ cps141-python/
 ├── setup.sh                    ← one-command environment setup
 ├── prompt_template.md          ← how to ask AI for help on assignments
 ├── custom.css                  ← Michigan-themed notebook styling
+├── tools/
+│   ├── notebook_checker.py     ← automated output checker
+│   └── checker_config.py       ← per-problemset checker config
 └── assignments/
-    └── assignment_01_hello_world/
-        ├── README.md           ← assignment instructions and objectives
-        ├── assignment_01.ipynb ← your notebook
-        ├── data/               ← input datasets
-        ├── assets/             ← images, charts, reference files
-        ├── output/             ← files your notebook creates
-        └── docs/
-            └── notes.md        ← your notes and documentation
+    ├── dylankur_problemset_1.ipynb  ← Problem Set 1 notebook
+    └── Dylan Kur- Problem Set 1     ← original instructor notebook
 ```
 
 ---
 
 ## How Assignments Work
-
 1. A new assignment folder gets added to `/assignments/`
 2. Read the assignment `README.md` first
 3. Work in the `.ipynb` notebook
 4. Use `prompt_template.md` when asking AI for help
 5. Save your work, commit, and push
+
+---
+
+## Notebook Checker Tool
+
+The `tools/` folder contains a checker that automatically compares your notebook's actual output against the yellow **Expected Output** boxes — no manual eyeballing required.
+
+### How it works
+
+1. It reads your `.ipynb` file
+2. For each yellow warning box it finds the code cell directly above it
+3. It compares the actual output to the expected output and prints `✅ PASS`, `❌ FAIL`, `⚠️ NOT RUN`, or `⏭ SKIPPED`
+
+### Run the checker
+
+From the project root (activate your virtual environment first):
+
+```powershell
+python tools/notebook_checker.py assignments/dylankur_problemset_1.ipynb
+```
+
+Example output:
+
+```
+============================================================
+  Notebook Checker
+  File: dylankur_problemset_1.ipynb
+============================================================
+  Problem 1     ✅ PASS
+  Problem 2     ❌ FAIL (cell not run or no output produced)
+  Problem 3     ✅ PASS
+  Problem 4     ✅ PASS
+  Problem 5     ❌ FAIL
+    Expected : Expected Output: Enter an integer: 5 10
+    Got      : <class 'str'> 8
+  Problem 6     ✅ PASS
+  Problem 7     ⏭  SKIPPED (non-deterministic output)
+  Problem 8     ✅ PASS
+  Problem 9     ✅ PASS
+============================================================
+  Results: 6 passed  |  2 failed  |  1 skipped  |  9 total
+============================================================
+```
+
+### Status meanings
+
+| Status | Meaning |
+|--------|---------|
+| ✅ PASS | Your output matches the expected output |
+| ❌ FAIL | Output doesn't match — re-read the problem and fix your code |
+| ❌ FAIL (cell not run) | Cell was never run or produced no output — complete and run it in Jupyter first, then save |
+| ⏭ SKIPPED | Problem uses random numbers — exact match not possible |
+| ⚠️ INPUT REQUIRED | Cell uses `input()` — run it interactively in Jupyter, it can't be checked automatically |
+| ⚠️ CUSTOMIZE REQUIRED | A greeting uses a placeholder name instead of yours — update the argument to use your own name |
+
+### Use it inside a notebook cell
+
+You can also call the checker directly from a notebook cell:
+
+```python
+import sys
+sys.path.insert(0, '../tools')
+from notebook_checker import check_notebook
+
+results = check_notebook('dylankur_problemset_1.ipynb')
+for problem, status in results.items():
+    print(f"{problem}: {status}")
+```
+
+### Adding a new problemset
+
+1. Open `tools/checker_config.py`
+2. Copy the template comment block at the bottom and fill in the filename
+3. Set `skip_problems` for any problems with random output
+4. Set `input_mocks` for any problems that use `input()`
+5. Run the checker — it works automatically for any `.ipynb` with `alert-warning` boxes
 
 ---
 
