@@ -258,4 +258,19 @@ Use `prompt_template.md` to get the most out of every AI interaction.
 
 ---
 
+## The "Comment-First & Refine" Method
+
+To get the most out of your coding journey, follow the **Comment-First & Refine** method. This ensures you master the logic, not just the syntax.
+
+1.  **Draft Descriptive Comments:** Write your intent in plain English before writing code.
+2.  **Implementation:** Use code completion to write the code, but verify it against your comment.
+3.  **Intermediate Printing:** Use `print()` to verify your logic at every step.
+4.  **Refinement:** After success, update your comments to explain *why* the code works.
+
+See [README.CodeCompletion.md](./README.CodeCompletion.md) for the full guide and examples.
+
+---
+
 *Built with Dylan — Go Blue! 💛💙*
+
+---
