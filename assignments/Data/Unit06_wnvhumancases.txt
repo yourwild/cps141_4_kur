@@ -357,3 +357,362 @@
 2006,Ventura,3
 2006,Yolo,26
 2006,Yuba,5
+2018,Amador,1
+2018,Butte,6
+2018,Contra Costa,1
+2018,Fresno,3
+2018,Glenn,2
+2018,Humboldt,1
+2018,Kern,5
+2018,Los Angeles,11
+2018,Madera,2
+2018,Merced,1
+2018,Orange,1
+2018,Placer,7
+2018,Riverside,7
+2018,Sacramento,1
+2018,San Bernardino,3
+2018,San Joaquin,9
+2018,Shasta,1
+2018,Stanislaus,6
+2018,Tehama,1
+2018,Tulare,1
+2018,Tuolumne,1
+2018,Ventura,1
+2018,Yolo,6
+2018,Yuba,1
+2017,Alameda,1
+2017,Butte,4
+2017,Contra Costa,4
+2017,Fresno,13
+2017,Imperial,3
+2017,Inyo,4
+2017,Kern,30
+2017,Kings,5
+2017,Los Angeles,277
+2017,Madera,2
+2017,Merced,10
+2017,Orange,33
+2017,Riverside,32
+2017,Sacramento,6
+2017,San Bernardino,57
+2017,San Diego,2
+2017,San Francisco,1
+2017,San Joaquin,14
+2017,Shasta,1
+2017,Solano,1
+2017,Stanislaus,28
+2017,Sutter,3
+2017,Tehama,2
+2017,Tulare,12
+2017,Ventura,1
+2017,Yolo,6
+2017,Yuba,1
+2016,Amador,1
+2016,Butte,21
+2016,Colusa,2
+2016,Contra Costa,4
+2016,El Dorado,1
+2016,Fresno,14
+2016,Glenn,6
+2016,Kern,17
+2016,Kings,8
+2016,Lake,1
+2016,Los Angeles,151
+2016,Madera,6
+2016,Monterey,1
+2016,Orange,32
+2016,Placer,7
+2016,Riverside,11
+2016,Sacramento,25
+2016,San Bernardino,8
+2016,San Diego,20
+2016,San Joaquin,13
+2016,Santa Clara,1
+2016,Shasta,1
+2016,Solano,4
+2016,Stanislaus,26
+2016,Sutter,12
+2016,Tehama,5
+2016,Tulare,10
+2016,Ventura,7
+2016,Yolo,16
+2016,Yuba,11
+2015,Butte,53
+2015,Colusa,1
+2015,Contra Costa,1
+2015,Fresno,8
+2015,Glenn,19
+2015,Imperial,1
+2015,Kern,11
+2015,Lake,2
+2015,Los Angeles,286
+2015,Madera,4
+2015,Marin,1
+2015,Mendocino,2
+2015,Merced,1
+2015,Nevada,2
+2015,Orange,92
+2015,Riverside,127
+2015,Sacramento,4
+2015,San Bernardino,53
+2015,San Diego,42
+2015,San Joaquin,2
+2015,Santa Clara,8
+2015,Shasta,3
+2015,Siskiyou,1
+2015,Solano,1
+2015,Stanislaus,13
+2015,Sutter,2
+2015,Tehama,5
+2015,Tulare,13
+2015,Ventura,6
+2015,Yolo,8
+2015,Yuba,10
+2014,Alameda,1
+2014,Butte,24
+2014,Colusa,3
+2014,Contra Costa,5
+2014,Fresno,43
+2014,Glenn,10
+2014,Imperial,1
+2014,Kern,11
+2014,Kings,4
+2014,Lake,1
+2014,Los Angeles,253
+2014,Madera,3
+2014,Mendocino,1
+2014,Merced,1
+2014,Orange,263
+2014,Placer,7
+2014,Riverside,14
+2014,Sacramento,10
+2014,San Bernardino,21
+2014,San Diego,11
+2014,San Joaquin,9
+2014,Santa Clara,10
+2014,Shasta,2
+2014,Solano,5
+2014,Stanislaus,33
+2014,Sutter,8
+2014,Tehama,4
+2014,Tulare,21
+2014,Ventura,1
+2014,Yolo,15
+2014,Yuba,6
+2013,Butte,24
+2013,Colusa,2
+2013,Contra Costa,5
+2013,El Dorado,1
+2013,Fresno,7
+2013,Glenn,9
+2013,Kern,25
+2013,Kings,1
+2013,Los Angeles,158
+2013,Madera,3
+2013,Marin,2
+2013,Napa,1
+2013,Orange,9
+2013,Placer,6
+2013,Riverside,35
+2013,Sacramento,10
+2013,San Bernardino,13
+2013,San Francisco,1
+2013,San Joaquin,8
+2013,Santa Barbara,1
+2013,Santa Clara,2
+2013,Shasta,1
+2013,Siskiyou,1
+2013,Solano,1
+2013,Stanislaus,18
+2013,Sutter,10
+2013,Tehama,3
+2013,Tulare,5
+2013,Ventura,2
+2013,Yolo,6
+2013,Yuba,9
+2012,Alameda,2
+2012,Butte,10
+2012,Colusa,3
+2012,Contra Costa,4
+2012,Fresno,24
+2012,Glenn,7
+2012,Imperial,1
+2012,Kern,25
+2012,Kings,3
+2012,Lake,1
+2012,Los Angeles,163
+2012,Madera,3
+2012,Merced,13
+2012,Monterey,1
+2012,Orange,42
+2012,Placer,12
+2012,Riverside,19
+2012,Sacramento,30
+2012,San Bernardino,32
+2012,San Diego,1
+2012,San Francisco,1
+2012,San Joaquin,13
+2012,Shasta,1
+2012,Solano,2
+2012,Stanislaus,26
+2012,Sutter,8
+2012,Tehama,4
+2012,Tulare,7
+2012,Ventura,7
+2012,Yolo,10
+2012,Yuba,4
+2011,Amador,1
+2011,Butte,3
+2011,Contra Costa,3
+2011,El Dorado,1
+2011,Fresno,9
+2011,Glenn,1
+2011,Kern,18
+2011,Kings,1
+2011,Los Angeles,58
+2011,Madera,2
+2011,Merced,1
+2011,Orange,10
+2011,Placer,1
+2011,Riverside,7
+2011,Sacramento,4
+2011,San Bernardino,4
+2011,San Joaquin,5
+2011,Santa Barbara,1
+2011,Santa Clara,1
+2011,Santa Cruz,1
+2011,Stanislaus,11
+2011,Tehama,1
+2011,Tulare,11
+2011,Yuba,3
+2010,Alameda,1
+2010,Butte,1
+2010,Contra Costa,4
+2010,Fresno,23
+2010,Glenn,2
+2010,Kern,15
+2010,Kings,1
+2010,Los Angeles,4
+2010,Madera,7
+2010,Merced,1
+2010,Orange,1
+2010,Placer,3
+2010,Sacramento,12
+2010,San Bernardino,5
+2010,San Francisco,1
+2010,San Joaquin,6
+2010,Stanislaus,12
+2010,Tulare,12
+2009,Butte,2
+2009,Contra Costa,5
+2009,El Dorado,1
+2009,Fresno,13
+2009,Kern,19
+2009,Kings,3
+2009,Los Angeles,20
+2009,Madera,1
+2009,Merced,4
+2009,Monterey,1
+2009,Orange,4
+2009,Riverside,3
+2009,San Bernardino,2
+2009,San Diego,4
+2009,San Joaquin,10
+2009,Stanislaus,13
+2009,Tulare,4
+2009,Yolo,2
+2009,Yuba,1
+2008,Alameda,1
+2008,Butte,6
+2008,Calaveras,1
+2008,Colusa,1
+2008,Contra Costa,4
+2008,El Dorado,1
+2008,Fresno,3
+2008,Glenn,1
+2008,Kern,2
+2008,Kings,2
+2008,Los Angeles,156
+2008,Merced,1
+2008,Orange,71
+2008,Placer,6
+2008,Riverside,62
+2008,Sacramento,13
+2008,San Bernardino,36
+2008,San Diego,35
+2008,San Joaquin,12
+2008,Santa Barbara,1
+2008,Santa Clara,1
+2008,Shasta,1
+2008,Solano,1
+2008,Stanislaus,17
+2008,Tehama,4
+2008,Tulare,5
+2008,Yolo,1
+2007,Butte,16
+2007,Colusa,2
+2007,Contra Costa,3
+2007,Fresno,17
+2007,Glenn,7
+2007,Imperial,3
+2007,Kern,140
+2007,Kings,7
+2007,Los Angeles,36
+2007,Madera,2
+2007,Mendocino,2
+2007,Merced,4
+2007,Napa,1
+2007,Orange,9
+2007,Placer,4
+2007,Riverside,17
+2007,Sacramento,25
+2007,San Bernardino,4
+2007,San Diego,15
+2007,San Joaquin,10
+2007,Santa Clara,4
+2007,Shasta,9
+2007,Solano,1
+2007,Sonoma,1
+2007,Stanislaus,21
+2007,Sutter,3
+2007,Tehama,4
+2007,Tulare,10
+2007,Ventura,1
+2007,Yolo,2
+2006,Alameda,1
+2006,Butte,31
+2006,Colusa,3
+2006,Contra Costa,8
+2006,El Dorado,2
+2006,Fresno,11
+2006,Glenn,12
+2006,Imperial,1
+2006,Kern,49
+2006,Kings,1
+2006,Lake,2
+2006,Los Angeles,12
+2006,Marin,1
+2006,Merced,4
+2006,Modoc,2
+2006,Mono,1
+2006,Napa,1
+2006,Nevada,1
+2006,Orange,6
+2006,Placer,8
+2006,Riverside,4
+2006,Sacramento,15
+2006,San Bernardino,3
+2006,San Diego,1
+2006,San Joaquin,8
+2006,San Luis Obispo,1
+2006,Santa Clara,5
+2006,Shasta,4
+2006,Solano,6
+2006,Stanislaus,11
+2006,Sutter,12
+2006,Tehama,3
+2006,Tulare,8
+2006,Ventura,3
+2006,Yolo,26
+2006,Yuba,5
