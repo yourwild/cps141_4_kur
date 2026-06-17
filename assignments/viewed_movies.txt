@@ -1,1 +1,10 @@
-["It's a Beautiful Life", "Black Panther", "Thor", "Greyhound"]
+[
+  "It's a Beautiful Life",
+  "Black Panther",
+  "Thor",
+  "Greyhound",
+  "The Matrix Reloaded",
+  "Godfather",
+  "Happy Gilmore",
+  "Ex-E.T."
+]
